@@ -9,7 +9,7 @@ int main(){
     cout << "Inserisci un numero maggiore/uguale a 2: " << endl;
     cin >> n;
     if (n<2){
-        cout << "Errore! Inserire un numero maggiore/uguale a 2!" << endl;
+        cout << "errore" << endl;
     } else if (n>=2) {
         cout << "Di seguito al numero che hai scelto: " << n << ", ecco i primi numeri della serie:" << endl;
         for (d=0; d<=n;d++){
